@@ -1,4 +1,4 @@
-server.port: 8061
+server.port: 8062
 
 resilience4j.circuitbreaker:
   instances:
