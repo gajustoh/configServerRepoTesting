@@ -2,7 +2,7 @@ server.port: 8062
 
 resilience4j.circuitbreaker:
   instances:
-    author-client:
+    book-client:
       slidingWindowSize: 10
       failureRateThreshold: 50
       waitDurationInOpenState: 20s
